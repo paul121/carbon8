@@ -1,0 +1,10 @@
+name: Carbon8
+type: module
+description: farmOS module for Carbon8
+package: farmOS Custom
+core_version_requirement: ^10
+dependencies:
+  - farm_farmlab:farm_farmlab
+  - farm:farm_import_kml
+  - farm:farm_quick_movement
+  - farm:farm_quick_planting

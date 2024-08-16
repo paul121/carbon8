@@ -1,0 +1,15 @@
+{
+  "name": "paul121/farm_carbon8",
+  "description": "farmOS module for Carbon8",
+  "type": "drupal-module",
+  "authors": [
+      {
+          "name": "Paul Weidner",
+          "email": "paul.weidner@gmail.com"
+      }
+  ],
+  "require": {
+    "drupal/farm_farmlab": "^1.0.0-beta4",
+    "farmos/farmos": "^3"
+  }
+}
