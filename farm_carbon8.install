@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for farmOS Carbon8 module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function farm_carbon8_install() {
+  $path = \Drupal::service('extension.list.module')->getPath('farm_carbon8');
+  $config = \Drupal::configFactory()->getEditable('gin.settings');
+  $config->set('logo.path', "$path/logo.png");
+  $config->save();
+}
