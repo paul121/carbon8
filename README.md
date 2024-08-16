@@ -1,4 +1,4 @@
-# farm_regen_digital
+# farm_carbon8
 farmOS module for [Carbon8](https://carbon8.org.au/)
 
 This module is an add-on for the [farmOS](http://drupal.org/project/farm)
